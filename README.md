@@ -4,6 +4,9 @@ Analysis of School grading data to make informed decisions for the budget.
 ## Overview of the school district analysis:
 An analysis of the schools grading data was done to make informed decisions with respect to the budget by the PyCity School board. But, it was discovered that there was academic dishonesty with respect to reading and math grades of 9th grade students from Thomas High School. So, the board wants this data replaced with NaNs and have the analysis done again to see how this affects the overall analysis.
 
+
+
+
 ## Results: Using bulleted lists and images of DataFrames as support, address the following questions.
 ### 1. How is the district summary affected?
    Generally, grade averages are usually formatted to one decimal place because averages taken to the hundredths (range: 0.01–0.09) or lower do not impact an average as much as tenths of a grade point, (range: 0.1–0.9). Similarly, grade percentages are formatted to the whole percentage because the tenths of a percent is equivalent to thousandths of a value, or grade. This is because, like averages, thousandths of a grade don't have an impact on the overall percentage because they are so small.
@@ -31,15 +34,64 @@ An analysis of the schools grading data was done to make informed decisions with
    ![THS School Summary without 9thGradeData.PNG](Resources/THS_School_Summary_without_9thGradeData.PNG) 
    
 
-3. How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-    As seen in the above screenshot the performance of Thomas High School **goes down significantly** when we include the 9th grade students data with the scores replaced with NaNs. But, if we ignore the 9th grade students records completely then the performance is not 
+### 3. How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+   As seen in the above screenshot the performance of Thomas High School **goes down significantly** when we include the 9th grade students data with the scores replaced with NaNs. But, if we ignore the 9th grade students records completely then the performance is similar to the output from complete dataset.
 
 
-5. How does replacing the ninth-grade scores affect the following:
-   - Math and reading scores by grade
-   - Scores by school spending
-   - Scores by school size
-   - Scores by school type
+When looking at relative performance using the **Overall Passing Percentage value** to other schools, Thomas High School is in 2nd place. 
+
+- When looking at relative performance to other schools, Thomas High School is in **2nd place**.
+![THS Relative Performace Complete Dataset](Resources/THS_Relative_Performace_Complete_Dataset.PNG)
+
+- But if the 9th grade students scores is replaced with NaNs, then Thomas High School falls to **8th place**.
+![THS Relative Performace with NaNs](Resources/THS_Relative_Performace_with_NaNs.PNG)
+
+- Instead of replacing, if 9th grade students records are excluded, then Thomas High School moves back to **2nd place** with respect to Overall Passing percentage.
+![THS Relative Performace without 9thGradeData](Resources/THS_Relative_Performace_without_9thGradeData.PNG)
+
+### 4. How does replacing the ninth-grade scores affect the following:
+- Math and reading scores by grade
+
+Math Scores By Grade:
+
+![Math Scores By Grade Complete Dataset](Resources/Math_Scores_By_Grade_Complete_Dataset.PNG)
+
+Reading Scores By Grade:
+
+![Reading Scores By Grade Complete Dataset](Resources/Reading_Scores_By_Grade_Complete_Dataset.PNG)
+
+- Scores by school spending
+
+Scores by School Spending: Complete dataset versus Dataset with NaNs
+![Scores By School Spending Complete Dataset](Resources/Scores_By_School_Spending_Complete_Dataset.PNG) 
+![Scores By School Spending NaNs Dataset](Resources/Scores_By_School_Spending_NaNs_Dataset.PNG)
+
+Scores by School Spending with Decimals: Complete dataset versus Dataset with NaNs
+![Scores By School Spending NaNs Dataset Decimals](Resources/Scores_By_School_Spending_NaNs_Dataset_Decimals.PNG)
+![Scores By School Spending Complete Dataset Decimals](Resources/Scores_By_School_Spending_Complete_Dataset_Decimals.PNG)
+
+
+- Scores by school size
+
+Scores by School Size: Complete dataset versus Dataset with NaNs
+![Scores By School Size Complete Dataset](Resources/Scores_By_School_Size_Complete_Dataset.PNG)
+![Scores By School Size NaNs Dataset](Resources/Scores_By_School_Size_NaNs_Dataset.PNG)
+
+Scores by School Size with Decimals: Complete dataset versus Dataset with NaNs
+![Scores By School Size Complete Dataset Decimals](Resources/Scores_By_School_Size_Complete_Dataset_Decimals.PNG)
+![Scores By School Size NaNs Dataset Decimals](Resources/Scores_By_School_Size_NaNs_Dataset_Decimals.PNG)
+
+
+- Scores by school type
+
+Scores by School Type: Complete dataset versus Dataset with NaNs
+![Scores By School Type Complete Dataset](Resources/Scores_By_School_Type_Complete_Dataset.PNG)
+![Scores By School Type NaNs Dataset](Resources/Scores_By_School_Type_NaNs_Dataset.PNG)
+
+Scores by School Type with Decimals: Complete dataset versus Dataset with NaNs
+![Scores By School Type Complete Dataset Decimals](Resources/Scores_By_School_Type_Complete_Dataset_Decimals.PNG)
+![Scores By School Type NaNs Dataset Decimals](Resources/Scores_By_School_Type_NaNs_Dataset_Decimals.PNG)
+
 
 # Summary: 
 Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
