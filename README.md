@@ -104,6 +104,6 @@ When we compare the formatted data, there appears to be no impact but when decim
 ## Summary: 
 The four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs are -
 1. At District level, there is a **slight** impact to **the tenth decimal value** for Reading and Math Score averages and their Passing percentages.
-2. At School level, only Thomas High School is affected. Its overall performace drops drastically pushing it from 2nd place to 8th place with respect to other schools,
-3. At School level, if the NaNs records are excluded from computation then Thomas High School climbs back to its 2nd place with respect overall performance,
-4. And finally, there is no significant impact with respect to school size, school spending and school type, and
+2. At School level, **only Thomas High School is affected**. Its overall performace drops drastically pushing it from **2nd place to 8th place** with respect to other schools,
+3. At School level, **if the NaNs records are excluded** from computation then **Thomas High School climbs back to its 2nd place** with respect overall performance,
+4. And finally, there is **no significant impact** with respect to **school size**, **school spending** and **school type**.
