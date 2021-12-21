@@ -37,9 +37,6 @@ An analysis of the schools grading data was done to make informed decisions with
 ### 3. How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
    As seen in the above screenshot the performance of Thomas High School **goes down significantly** when we include the 9th grade students data with the scores replaced with NaNs. But, if we ignore the 9th grade students records completely then the performance is similar to the output from complete dataset.
 
-
-When looking at relative performance using the **Overall Passing Percentage value** to other schools, Thomas High School is in 2nd place. 
-
 - When looking at relative performance to other schools, Thomas High School is in **2nd place**.
 ![THS Relative Performace Complete Dataset](Resources/THS_Relative_Performace_Complete_Dataset.PNG)
 
@@ -49,16 +46,24 @@ When looking at relative performance using the **Overall Passing Percentage valu
 - Instead of replacing, if 9th grade students records are excluded, then Thomas High School moves back to **2nd place** with respect to Overall Passing percentage.
 ![THS Relative Performace without 9thGradeData](Resources/THS_Relative_Performace_without_9thGradeData.PNG)
 
-### 4. How does replacing the ninth-grade scores affect the following:
-- Math and reading scores by grade
 
-Math Scores By Grade:
+### 4. How does replacing the ninth-grade scores affect the following:
+
+#### Math and reading scores by grade
+
+- Math and Reading Scores By Grade: Complete dataset
 
 ![Math Scores By Grade Complete Dataset](Resources/Math_Scores_By_Grade_Complete_Dataset.PNG)
-
-Reading Scores By Grade:
-
 ![Reading Scores By Grade Complete Dataset](Resources/Reading_Scores_By_Grade_Complete_Dataset.PNG)
+
+
+- Math and Reading Scores By Grade: After replacing 9th grade scores with NaNs
+
+![Math Scores By Grade with NaNs](https://github.com/Bhargavi-ng/School_District_Analysis/blob/main/Resources/Math_Scores_By_Grade_with_NaNs.PNG = 250x250)
+
+<img src="https://github.com/Bhargavi-ng/School_District_Analysis/blob/main/Resources/Math_Scores_By_Grade_with_NaNs" width="250" height="400">
+
+![Reading Scores By Grade with NaNs](https://github.com/Bhargavi-ng/School_District_Analysis/blob/main/Resources/Reading_Scores_By_Grade_with_NaNs.PNG {width=40px height=400px})
 
 - Scores by school spending
 
