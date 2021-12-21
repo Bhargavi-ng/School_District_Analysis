@@ -4,10 +4,7 @@ Analysis of School grading data to make informed decisions for the budget.
 ## Overview of the school district analysis:
 An analysis of the Schools Grading data was done to make informed decisions with respect to the budget by the PyCity School board. But, it was discovered that there was academic dishonesty with respect to reading and math grades of 9th grade students from Thomas High School. So, the PyCity School board wants this data replaced with NaNs and have the analysis done again to see how this affects the overall analysis.
 
-
-
-
-## Results: Using bulleted lists and images of DataFrames as support, address the following questions.
+## Results:
 ### 1. How is the district summary affected?
    Generally, grade averages are usually formatted to one decimal place because averages taken to the hundredths (range: 0.01–0.09) or lower do not impact an average as much as tenths of a grade point, (range: 0.1–0.9). Similarly, grade percentages are formatted to the whole percentage because the tenths of a percent is equivalent to thousandths of a value, or grade. This is because, like averages, thousandths of a grade don't have an impact on the overall percentage because they are so small.
    
