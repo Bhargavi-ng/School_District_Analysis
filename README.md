@@ -19,6 +19,8 @@ An analysis of the schools grading data was done to make informed decisions with
    **District Summary after replacing Thomas High School's 9th grade students scores with NaNs:**
    ![District Summary with NaNs](Resources/District_Summary_with_NaNs.PNG)
 
+
+---
 ### 2. How is the school summary affected?
    As you can see below, only Thomas High School's data is affected by replacing the 9th grade scores with NaNs. The percentages are heavly impacted but the averages are affected only to the tenth decimal place.
    
@@ -32,8 +34,8 @@ An analysis of the schools grading data was done to make informed decisions with
    
    **School Summary after ignoring Thomas High School's 9th grade students scores:**
    ![THS School Summary without 9thGradeData.PNG](Resources/THS_School_Summary_without_9thGradeData.PNG) 
-   
-
+ 
+---
 ### 3. How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
    As seen in the above screenshot the performance of Thomas High School **goes down significantly** when we include the 9th grade students data with the scores replaced with NaNs. But, if we ignore the 9th grade students records completely then the performance is similar to the output from complete dataset.
 
@@ -46,57 +48,64 @@ An analysis of the schools grading data was done to make informed decisions with
 - Instead of replacing, if 9th grade students records are excluded, then Thomas High School moves back to **2nd place** with respect to Overall Passing percentage.
 ![THS Relative Performace without 9thGradeData](Resources/THS_Relative_Performace_without_9thGradeData.PNG)
 
+---
 
 ### 4. How does replacing the ninth-grade scores affect the following:
-
-#### Math and reading scores by grade
-
+---
+#### Math and reading scores by grade:
+---
+As shown below the ninth-grade scores will show as NaN for Thomas High School Math and Reading scores.
 - Math and Reading Scores By Grade: Complete dataset
 
 ![Math Scores By Grade Complete Dataset](Resources/Math_Scores_By_Grade_Complete_Dataset.PNG)
 ![Reading Scores By Grade Complete Dataset](Resources/Reading_Scores_By_Grade_Complete_Dataset.PNG)
 
-
 - Math and Reading Scores By Grade: After replacing 9th grade scores with NaNs
 
-![Math Scores By Grade with NaNs](https://github.com/Bhargavi-ng/School_District_Analysis/blob/main/Resources/Math_Scores_By_Grade_with_NaNs.PNG = 250x250)
+<img src="Resources/Math_Scores_By_Grade_with_NaNs.PNG" width="300" height="400"> <img src="Resources/Reading_Scores_By_Grade_with_NaNs.PNG" width="300" height="400">
 
-<img src="https://github.com/Bhargavi-ng/School_District_Analysis/blob/main/Resources/Math_Scores_By_Grade_with_NaNs" width="250" height="400">
+---
+#### Scores by school spending:
+---
+When we compare the formatted data, there appears to be no impact but when decimals are considered there is impact at hundredth decimal except for Overall Passing Percentage, which is impacted at tenth decimal place.
 
-![Reading Scores By Grade with NaNs](https://github.com/Bhargavi-ng/School_District_Analysis/blob/main/Resources/Reading_Scores_By_Grade_with_NaNs.PNG {width=40px height=400px})
-
-- Scores by school spending
-
-Scores by School Spending: Complete dataset versus Dataset with NaNs
+- Scores by School Spending: Complete dataset versus Dataset with NaNs
 ![Scores By School Spending Complete Dataset](Resources/Scores_By_School_Spending_Complete_Dataset.PNG) 
 ![Scores By School Spending NaNs Dataset](Resources/Scores_By_School_Spending_NaNs_Dataset.PNG)
 
-Scores by School Spending with Decimals: Complete dataset versus Dataset with NaNs
+- Scores by School Spending with Decimals: Complete dataset versus Dataset with NaNs
 ![Scores By School Spending NaNs Dataset Decimals](Resources/Scores_By_School_Spending_NaNs_Dataset_Decimals.PNG)
 ![Scores By School Spending Complete Dataset Decimals](Resources/Scores_By_School_Spending_Complete_Dataset_Decimals.PNG)
 
+---
+#### Scores by school size
+---
+When we compare the formatted data, there appears to be no impact but when decimals are considered there is impact at hundredth decimal except for Overall Passing Percentage, which is impacted at tenth decimal place.
 
-- Scores by school size
-
-Scores by School Size: Complete dataset versus Dataset with NaNs
+- Scores by School Size: Complete dataset versus Dataset with NaNs
 ![Scores By School Size Complete Dataset](Resources/Scores_By_School_Size_Complete_Dataset.PNG)
 ![Scores By School Size NaNs Dataset](Resources/Scores_By_School_Size_NaNs_Dataset.PNG)
 
-Scores by School Size with Decimals: Complete dataset versus Dataset with NaNs
+- Scores by School Size with Decimals: Complete dataset versus Dataset with NaNs
 ![Scores By School Size Complete Dataset Decimals](Resources/Scores_By_School_Size_Complete_Dataset_Decimals.PNG)
 ![Scores By School Size NaNs Dataset Decimals](Resources/Scores_By_School_Size_NaNs_Dataset_Decimals.PNG)
 
+---
+#### Scores by school type
+---
+When we compare the formatted data, there appears to be no impact but when decimals are considered there is impact at hundredth decimal except for Overall Passing Percentage, which is impacted at tenth decimal place.
 
-- Scores by school type
-
-Scores by School Type: Complete dataset versus Dataset with NaNs
+- Scores by School Type: Complete dataset versus Dataset with NaNs
 ![Scores By School Type Complete Dataset](Resources/Scores_By_School_Type_Complete_Dataset.PNG)
 ![Scores By School Type NaNs Dataset](Resources/Scores_By_School_Type_NaNs_Dataset.PNG)
 
-Scores by School Type with Decimals: Complete dataset versus Dataset with NaNs
+- Scores by School Type with Decimals: Complete dataset versus Dataset with NaNs
 ![Scores By School Type Complete Dataset Decimals](Resources/Scores_By_School_Type_Complete_Dataset_Decimals.PNG)
 ![Scores By School Type NaNs Dataset Decimals](Resources/Scores_By_School_Type_NaNs_Dataset_Decimals.PNG)
 
 
 # Summary: 
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+The four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs are -
+1. At District level, there is an impact to the tenth decimal value for Reading and Math Score averages and their Passing percentages,
+2. At School level, only Thomas High School is affected. Its overall performace drops drastically pushing it from 2nd place to 8th place with respect to other schools,
+3. 
