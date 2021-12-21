@@ -2,7 +2,7 @@
 Analysis of School grading data to make informed decisions for the budget.
 
 ## Overview of the school district analysis:
-An analysis of the schools grading data was done to make informed decisions with respect to the budget by the PyCity School board. But, it was discovered that there was academic dishonesty with respect to reading and math grades of 9th grade students from Thomas High School. So, the board wants this data replaced with NaNs and have the analysis done again to see how this affects the overall analysis.
+An analysis of the Schools Grading data was done to make informed decisions with respect to the budget by the PyCity School board. But, it was discovered that there was academic dishonesty with respect to reading and math grades of 9th grade students from Thomas High School. So, the PyCity School board wants this data replaced with NaNs and have the analysis done again to see how this affects the overall analysis.
 
 
 
@@ -62,7 +62,7 @@ As shown below the ninth-grade scores will show as NaN for Thomas High School Ma
 
 - Math and Reading Scores By Grade: After replacing 9th grade scores with NaNs
 
-<img src="Resources/Math_Scores_By_Grade_with_NaNs.PNG" width="300" height="400"> <img src="Resources/Reading_Scores_By_Grade_with_NaNs.PNG" width="300" height="400">
+<img src="Resources/Math_Scores_By_Grade_with_NaNs.PNG" width="300" height="450"> <img src="Resources/Reading_Scores_By_Grade_with_NaNs.PNG" width="300" height="450">
 
 ---
 #### Scores by school spending:
@@ -104,8 +104,9 @@ When we compare the formatted data, there appears to be no impact but when decim
 ![Scores By School Type NaNs Dataset Decimals](Resources/Scores_By_School_Type_NaNs_Dataset_Decimals.PNG)
 
 
-# Summary: 
+## Summary: 
 The four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs are -
-1. At District level, there is an impact to the tenth decimal value for Reading and Math Score averages and their Passing percentages,
+1. At District level, there is a **slight** impact to **the tenth decimal value** for Reading and Math Score averages and their Passing percentages.
 2. At School level, only Thomas High School is affected. Its overall performace drops drastically pushing it from 2nd place to 8th place with respect to other schools,
-3. 
+3. At School level, if the NaNs records are excluded from computation then Thomas High School climbs back to its 2nd place with respect overall performance,
+4. And finally, there is no significant impact with respect to school size, school spending and school type, and
